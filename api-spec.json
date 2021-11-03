@@ -1,0 +1,209 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "quote-api",
+    "version": "0.0.2",
+    "description": "API for receiving quotes.",
+    "contact": {
+      "name": "John Doe"
+    }
+  },
+  "servers": [
+    {
+      "url": "http://localhost:3000"
+    }
+  ],
+  "paths": {
+    "/quotes/{quoteId}": {
+      "parameters": [
+        {
+          "schema": {
+            "type": "string"
+          },
+          "name": "quoteId",
+          "in": "path",
+          "description": "ID of Quote",
+          "required": true
+        }
+      ],
+      "get": {
+        "summary": "Get Quote Info by quote ID",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Quote"
+                },
+                "examples": {
+                  "New Quote Example": {
+                    "value": {
+                      "id": 22,
+                      "employerName": "Joe's Hamburgers",
+                      "quantityEmployees": 30,
+                      "addressLine1": "100 W Towne Ridge Pkwy",
+                      "city": "Sandy",
+                      "state": "UT",
+                      "zipCode": "84070",
+                      "classCode": 9083,
+                      "taxId": 123456789,
+                      "url": "https://www.abc.com/quote/quick"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Quote Not Found"
+          }
+        },
+        "operationId": "get-quote-quoteId",
+        "description": "Get information about quote by Id.",
+        "tags": []
+      },
+      "put": {
+        "summary": "Update quote information.",
+        "operationId": "put-quotes-quoteId",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Quote"
+                }
+              }
+            }
+          }
+        },
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Quote"
+              }
+            }
+          }
+        },
+        "description": "Update quote information.",
+        "tags": []
+      }
+    },
+    "/quotes": {
+      "parameters": [],
+      "post": {
+        "summary": "Create Quote",
+        "operationId": "post-quotes",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Quote"
+              },
+              "examples": {
+                "New Quote Example": {
+                  "value": {
+                    "employerName": "Joe's Hamburgers",
+                    "quantityEmployees": 30,
+                    "addressLine1": "100 W Towne Ridge Pkwy",
+                    "city": "Sandy",
+                    "state": "UT",
+                    "zipCode": "84070",
+                    "classCode": 9083,
+                    "taxId": 123456789
+                  }
+                }
+              }
+            }
+          },
+          "description": "Create quote information"
+        },
+        "responses": {
+          "201": {
+            "description": "Quote Created"
+          },
+          "400": {
+            "description": "Missing Required Information"
+          }
+        },
+        "description": "Post the necessary fields for the API to create a new quote.",
+        "tags": []
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Quote": {
+        "description": "",
+        "type": "object",
+        "x-examples": {
+          "example-1": {
+            "id": 0,
+            "employerName": "string",
+            "quantityEmployees": 0,
+            "addressLine1": "string",
+            "city": "string",
+            "state": "string",
+            "zipCode": "string",
+            "classCode": 0,
+            "taxId": 0,
+            "url": "string"
+          }
+        },
+        "properties": {
+          "id": {
+            "type": "number"
+          },
+          "employerName": {
+            "type": "string",
+            "minLength": 1
+          },
+          "quantityEmployees": {
+            "type": "number"
+          },
+          "addressLine1": {
+            "type": "string",
+            "minLength": 1
+          },
+          "city": {
+            "type": "string",
+            "minLength": 1
+          },
+          "state": {
+            "type": "string",
+            "minLength": 1
+          },
+          "zipCode": {
+            "type": "string",
+            "minLength": 1
+          },
+          "classCode": {
+            "type": "number"
+          },
+          "taxId": {
+            "type": "number"
+          },
+          "url": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "employerName",
+          "quantityEmployees",
+          "addressLine1",
+          "city",
+          "state",
+          "zipCode",
+          "classCode",
+          "taxId"
+        ]
+      }
+    },
+    "securitySchemes": {},
+    "requestBodies": {},
+    "parameters": {}
+  }
+}
