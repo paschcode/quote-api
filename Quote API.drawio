@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-04T18:15:16.110Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="8533lOt7-26JouJz7KfL" version="15.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-04T18:16:20.248Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="ZBMn2YYUs9HSXo1GvuEG" version="15.6.8" type="github">
   <diagram id="LkRK95agc2F9LykkVS8R" name="Page-1">
     <mxGraphModel dx="763" dy="513" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -76,10 +76,10 @@
             <mxPoint x="413" y="164.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IcFeiNLTWP4GP0-CxZ-s-33" value="Public" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=none;" vertex="1" parent="1">
+        <mxCell id="IcFeiNLTWP4GP0-CxZ-s-33" value="Public" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=none;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="343" y="269" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="IcFeiNLTWP4GP0-CxZ-s-34" value="Private" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=none;" vertex="1" parent="1">
+        <mxCell id="IcFeiNLTWP4GP0-CxZ-s-34" value="Private" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=none;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="478" y="269" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IcFeiNLTWP4GP0-CxZ-s-17" value="API&#xa;Gateway" style="group;verticalAlign=middle;strokeColor=none;" vertex="1" connectable="0" parent="1">
