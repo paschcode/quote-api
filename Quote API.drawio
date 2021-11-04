@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-04T18:22:05.314Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="NYAyrd_MlRJROj284i81" version="15.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-04T18:23:31.922Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="JWJy0hTDUKF1G-ZE3Wy-" version="15.6.8" type="github">
   <diagram id="LkRK95agc2F9LykkVS8R" name="Page-1">
     <mxGraphModel dx="1106" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -16,7 +16,7 @@
         <mxCell id="IcFeiNLTWP4GP0-CxZ-s-1" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/app_services/API_Management_Services.svg;" vertex="1" parent="IcFeiNLTWP4GP0-CxZ-s-37">
           <mxGeometry x="349" y="95" width="54.17" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="IcFeiNLTWP4GP0-CxZ-s-3" value="IVANS&lt;br&gt;Adapter" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.cloud_service;" vertex="1" parent="IcFeiNLTWP4GP0-CxZ-s-37">
+        <mxCell id="IcFeiNLTWP4GP0-CxZ-s-3" value="3rd Party&lt;br&gt;Adapter" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.cloud_service;" vertex="1" parent="IcFeiNLTWP4GP0-CxZ-s-37">
           <mxGeometry x="208" y="105" width="50" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IcFeiNLTWP4GP0-CxZ-s-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="IcFeiNLTWP4GP0-CxZ-s-37" source="IcFeiNLTWP4GP0-CxZ-s-6" target="IcFeiNLTWP4GP0-CxZ-s-3">
@@ -28,13 +28,13 @@
             <mxPoint x="428" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IcFeiNLTWP4GP0-CxZ-s-23" value="WCF API" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/app_services/App_Services.svg;" vertex="1" parent="IcFeiNLTWP4GP0-CxZ-s-37">
+        <mxCell id="IcFeiNLTWP4GP0-CxZ-s-23" value="Internal API" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/app_services/App_Services.svg;" vertex="1" parent="IcFeiNLTWP4GP0-CxZ-s-37">
           <mxGeometry x="510" y="20" width="64" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="IcFeiNLTWP4GP0-CxZ-s-24" value="WCF API" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/app_services/App_Services.svg;" vertex="1" parent="IcFeiNLTWP4GP0-CxZ-s-37">
+        <mxCell id="IcFeiNLTWP4GP0-CxZ-s-24" value="Internal API" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/app_services/App_Services.svg;" vertex="1" parent="IcFeiNLTWP4GP0-CxZ-s-37">
           <mxGeometry x="600" y="97" width="64" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="IcFeiNLTWP4GP0-CxZ-s-25" value="WCF API" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/app_services/App_Services.svg;" vertex="1" parent="IcFeiNLTWP4GP0-CxZ-s-37">
+        <mxCell id="IcFeiNLTWP4GP0-CxZ-s-25" value="Internal API" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/app_services/App_Services.svg;" vertex="1" parent="IcFeiNLTWP4GP0-CxZ-s-37">
           <mxGeometry x="510" y="141" width="64" height="64" as="geometry" />
         </mxCell>
         <mxCell id="IcFeiNLTWP4GP0-CxZ-s-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#8AE8FF;" edge="1" parent="IcFeiNLTWP4GP0-CxZ-s-37" source="IcFeiNLTWP4GP0-CxZ-s-10" target="IcFeiNLTWP4GP0-CxZ-s-25">
